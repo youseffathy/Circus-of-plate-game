@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.2.2" icons="true" generate-combined-fragments="true">  
+  <object id="1" language="java" name="model.gameWorld.GameWorld" project="Game" 
+    file="/Game/src/model/gameWorld/GameWorld.java" binary="false" label="gameWorld" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="367" y="0"/>    
+    <execution id="2">      
+      <position height="63" width="90" x="5" y="99"/>    
+    </execution>    
+    <execution id="5">      
+      <position height="63" width="90" x="5" y="197"/>    
+    </execution>    
+    <execution id="8">      
+      <position height="249" width="90" x="5" y="317"/>    
+    </execution>    
+    <execution id="11">      
+      <position height="63" width="90" x="5" y="533"/>    
+    </execution>    
+    <execution id="14">      
+      <position height="63" width="90" x="5" y="590"/>    
+    </execution>    
+    <execution id="17">      
+      <position height="63" width="90" x="5" y="645"/>    
+    </execution>    
+    <execution id="20">      
+      <position height="98" width="90" x="5" y="719"/>    
+    </execution>  
+  </object>  
+  <object id="25" language="java" name="model.gameWorld.SoundEffectsFactory" project="Game" 
+    file="/Game/src/model/gameWorld/SoundEffectsFactory.java" binary="false" label="soundEffectsFactory" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="544" y="0"/>    
+    <execution id="4">      
+      <position height="21" width="141" x="99" y="120"/>    
+    </execution>  
+  </object>  
+  <object id="26" language="java" name="model.gameObjects.shapes.plate.PlateFactory" project="Game" 
+    file="/Game/src/model/gameObjects/shapes/plate/PlateFactory.java" binary="false" label="plateFactory" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="591" y="0"/>    
+    <execution id="7">      
+      <position height="21" width="146" x="244" y="218"/>    
+    </execution>    
+    <execution id="27">      
+      <position height="63" width="146" x="244" y="146"/>    
+    </execution>    
+    <execution id="30">      
+      <position height="63" width="146" x="244" y="463"/>    
+    </execution>  
+  </object>  
+  <object id="33" language="java" name="model.gameObjects.shapes.plate.Shapesloader" project="Game" 
+    file="/Game/src/model/gameObjects/shapes/plate/Shapesloader.java" binary="false" label="shapesloader" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="649" y="0"/>    
+    <execution id="29">      
+      <position height="21" width="146" x="394" y="167"/>    
+    </execution>  
+  </object>  
+  <object id="34" language="java" name="model.gameObjects.shapes.plate.PlatesPool" project="Game" 
+    file="/Game/src/model/gameObjects/shapes/plate/PlatesPool.java" binary="false" label="platesPool" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="892" y="0"/>    
+    <execution id="32">      
+      <position height="21" width="146" x="544" y="484"/>    
+    </execution>  
+  </object>  
+  <object id="35" language="java" name="model.gameStrategy.DifficultyFactory" project="Game" 
+    file="/Game/src/model/gameStrategy/DifficultyFactory.java" binary="false" label="difficultyFactory" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="909" y="0"/>    
+    <execution id="10">      
+      <position height="207" width="114" x="844" y="338"/>    
+    </execution>  
+  </object>  
+  <object id="38" language="java" name="model.gameStrategy.GameStrategyIF" project="Game" 
+    file="/Game/src/model/gameStrategy/GameStrategyIF.java" binary="false" label="gameStrategyIF" type="interface" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="806" y="0"/>    
+    <execution id="37">      
+      <position height="120" width="113" x="812" y="404"/>    
+    </execution>    
+    <execution id="41">      
+      <position height="63" width="113" x="812" y="455"/>    
+    </execution>  
+  </object>  
+  <object id="44" language="java" name="model.clownBuilder.ClownEngineer" project="Game" 
+    file="/Game/src/model/clownBuilder/ClownEngineer.java" binary="false" label="clownEngineer" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="821" y="0"/>    
+    <execution id="40">      
+      <position height="21" width="108" x="929" y="425"/>    
+    </execution>    
+    <execution id="43">      
+      <position height="21" width="108" x="929" y="476"/>    
+    </execution>  
+  </object>  
+  <object id="45" language="java" name="model.gameObjects.Clown" project="Game" 
+    file="/Game/src/model/gameObjects/Clown.java" binary="false" label="clown" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="952" y="0"/>    
+    <execution id="46">      
+      <position height="63" width="90" x="962" y="99"/>    
+    </execution>    
+    <execution id="49">      
+      <position height="63" width="90" x="962" y="196"/>    
+    </execution>    
+    <execution id="52">      
+      <position height="63" width="90" x="812" y="292"/>    
+    </execution>  
+  </object>  
+  <object id="55" language="java" name="model.clownBuilder.stack.Stack" project="Game" 
+    file="/Game/src/model/clownBuilder/stack/Stack.java" binary="false" label="stack" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="847" y="0"/>    
+    <execution id="48">      
+      <position height="21" width="112" x="1056" y="120"/>    
+    </execution>    
+    <execution id="51">      
+      <position height="21" width="112" x="1056" y="217"/>    
+    </execution>    
+    <execution id="56">      
+      <position height="63" width="112" x="1056" y="166"/>    
+    </execution>    
+    <execution id="59">      
+      <position height="63" width="112" x="1056" y="102"/>    
+    </execution>    
+    <execution id="54">      
+      <position height="21" width="112" x="906" y="313"/>    
+    </execution>  
+  </object>  
+  <object id="62" language="java" name="model.clownBuilder.stack.state.StackState" project="Game" 
+    file="/Game/src/model/clownBuilder/stack/state/StackState.java" binary="false" label="stackState" type="interface" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="942" y="0"/>    
+    <execution id="58">      
+      <position height="21" width="136" x="1172" y="187"/>    
+    </execution>    
+    <execution id="61">      
+      <position height="21" width="136" x="1172" y="123"/>    
+    </execution>  
+  </object>  
+  <object id="63" language="java" name="model.gameObjects.shapes.plate.PlateFlyWeight" project="Game" 
+    file="/Game/src/model/gameObjects/shapes/plate/PlateFlyWeight.java" binary="false" label="plateFlyWeight" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="738" y="0"/>  
+  </object>  
+  <object id="64" language="java" name="model.memento.SnapShotCommand" project="Game" 
+    file="/Game/src/model/memento/SnapShotCommand.java" binary="false" label="snapShotCommand" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="977" y="0"/>    
+    <execution id="22">      
+      <position height="21" width="136" x="1589" y="740"/>    
+    </execution>    
+    <execution id="24">      
+      <position height="21" width="136" x="1589" y="775"/>    
+    </execution>  
+  </object>  
+  <object id="65" language="java" name="model.memento.Originator" project="Game" 
+    file="/Game/src/model/memento/Originator.java" binary="false" label="originator" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="977" y="0"/>    
+    <execution id="13">      
+      <position height="21" width="80" x="1729" y="554"/>    
+    </execution>    
+    <execution id="16">      
+      <position height="21" width="80" x="1729" y="611"/>    
+    </execution>  
+  </object>  
+  <object id="66" language="java" name="model.memento.Memento" project="Game" 
+    file="/Game/src/model/memento/Memento.java" binary="false" label="memento" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="977" y="0"/>  
+  </object>  
+  <object id="67" language="java" name="model.memento.Caretaker" project="Game" 
+    file="/Game/src/model/memento/Caretaker.java" binary="false" label="caretaker" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="977" y="0"/>    
+    <execution id="19">      
+      <position height="21" width="80" x="1893" y="666"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="playMainTheme(java.lang.String):void" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="6" operation="getPlate(int,int):model.gameObjects.shapes.ImageObject" asynchronous="false">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="7"/>  
+  </message>  
+  <message id="9" operation="getDifficulty(java.lang.String):model.gameStrategy.GameStrategyIF" asynchronous="false">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>  
+  <message id="12" asynchronous="false">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="13"/>  
+  </message>  
+  <message id="15" operation="storeInMemento():model.memento.Memento" asynchronous="false">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="16"/>  
+  </message>  
+  <message id="18" operation="addMemento(model.memento.Memento):void" asynchronous="false">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="19"/>  
+  </message>  
+  <message id="21" operation="execute(int):void" asynchronous="false">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="22"/>  
+  </message>  
+  <message id="23" operation="loadSnapShot():void" asynchronous="false">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="24"/>  
+  </message>  
+  <message id="28" operation="loadAllclasses():java.util.Map&lt;String,Class&lt;? extends ImageObject&gt;&gt;" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="29"/>  
+  </message>  
+  <message id="31" operation="PopPlate():model.gameObjects.shapes.ImageObject" asynchronous="false">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="32"/>  
+  </message>  
+  <message id="36" 
+    operation="setGamePlay(model.gameObjects.shapes.plate.PlateFactory,java.util.List&lt;eg.edu.alexu.csd.oop.game.GameObject&gt;,java.util.List&lt;eg.edu.alexu.csd.oop.game.GameObject&gt;,model.gameObjects.Clown,int,int,model.gameWorld.GameWorld):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="37"/>  
+  </message>  
+  <message id="39" operation="makeClown():void" asynchronous="false">    
+    <end type="SOURCE" refId="37"/>    
+    <end type="TARGET" refId="40"/>  
+  </message>  
+  <message id="42" operation="makeClown():void" asynchronous="false">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="43"/>  
+  </message>  
+  <message id="47" operation="Stack(int)" asynchronous="false">    
+    <end type="SOURCE" refId="46"/>    
+    <end type="TARGET" refId="48"/>  
+  </message>  
+  <message id="50" operation="Stack(int)" asynchronous="false">    
+    <end type="SOURCE" refId="49"/>    
+    <end type="TARGET" refId="51"/>  
+  </message>  
+  <message id="53" operation="notifyPlates(int):void" asynchronous="false">    
+    <end type="SOURCE" refId="52"/>    
+    <end type="TARGET" refId="54"/>  
+  </message>  
+  <message id="57" asynchronous="false">    
+    <end type="SOURCE" refId="56"/>    
+    <end type="TARGET" refId="58"/>  
+  </message>  
+  <message id="60" asynchronous="false">    
+    <end type="SOURCE" refId="59"/>    
+    <end type="TARGET" refId="61"/>  
+  </message>
+</sequence-diagram>
